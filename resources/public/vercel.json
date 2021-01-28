@@ -1,5 +1,5 @@
 {
-    "routes": [
+    "rewrites": [
         {
             "source": "js/**",
             "destination": "js/compiled/app.js"
