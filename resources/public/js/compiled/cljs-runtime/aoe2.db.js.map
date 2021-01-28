@@ -1,1 +1,0 @@
-{"version":3,"sources":["aoe2/db.cljs"],"mappings":";AAEA,AAAA,AAAA,AAAA,AAAA,AAAA,AAAA,AAAA,AAAA,AAAA,AAAA,AAAA,AAAKA","names":["aoe2.db/default-db"],"sourcesContent":["(ns aoe2.db)\n\n(def default-db\n  {:name \"re-frame\"\n   ::active-panel :home-panel\n   :civilizations {}\n   :units {}\n   :civilizations-loading false})"]}

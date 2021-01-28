@@ -1,1 +1,0 @@
-{"version":3,"sources":["aoe2/config.cljs"],"mappings":";AAEA,AAAKA,AACMC","names":["aoe2.config/debug?","js/goog.DEBUG"],"sourcesContent":["(ns aoe2.config)\n\n(def debug?\n  ^boolean goog.DEBUG)\n"]}

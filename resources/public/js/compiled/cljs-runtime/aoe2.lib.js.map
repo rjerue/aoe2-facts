@@ -1,1 +1,0 @@
-{"version":3,"sources":["aoe2/lib.cljs"],"mappings":";AAIA,AAAA,AAAMA,AAAYC;AAAlB,AACE,AAACC,AAAK,AAAA,AAACC,AAAqBF","names":["aoe2.lib/final-slug","input","cljs.core/last","clojure.string.split"],"sourcesContent":["(ns aoe2.lib\n  (:require\n   [clojure.string :as clojure.string]))\n\n(defn final-slug [input]\n  (last (clojure.string/split input \"/\")))"]}
