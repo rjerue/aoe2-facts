@@ -1,11 +1,11 @@
 {
     "rewrites": [
         {
-            "source": "js/**",
+            "source": "/js/.*js",
             "destination": "js/compiled/app.js"
         },
         {
-            "source": "*",
+            "source": "/.*",
             "destination": "index.html"
         }
     ]
