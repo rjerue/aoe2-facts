@@ -5,6 +5,7 @@ Facts abotu AOE2. Uses cors anywhere so don't get too excited with http requests
 TODO:
 - Style
 - Reduce overfetching
+- Nicer loading
 
 ## Getting Started
 

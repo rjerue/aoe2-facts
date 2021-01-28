@@ -71,4 +71,4 @@
 (re-frame/reg-event-db
  ::set-unit
  (fn [db [_ unit]]
-   (assoc-in db [:units (clojure.string/replace (-> "name" unit clojure.string/lower-case) " " "_")] (assoc unit :loading false))))
+   (assoc-in db [:units (-> unit (get "name") clojure.string/lower-case (clojure.string/replace " " "_"))] (assoc unit :loading false))))
