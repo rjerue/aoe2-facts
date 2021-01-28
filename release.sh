@@ -1,3 +1,4 @@
 lein release
-rm -fr /docs
-cp /resources /docs
+rm -fr ./docs
+mkdir ./docs
+cp -r ./resources/public ./docs
