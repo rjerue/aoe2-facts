@@ -1,0 +1,12 @@
+{
+    "rewrites": [
+        {
+            "source": "js/**",
+            "destination": "js/compiled/app.js"
+        },
+        {
+            "source": "*",
+            "destination": "index.html"
+        }
+    ]
+}
