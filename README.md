@@ -6,6 +6,7 @@ TODO:
 - Style
 - Reduce overfetching
 - Nicer loading
+- Break up views.cljs
 
 ## Getting Started
 
